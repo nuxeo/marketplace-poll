@@ -1,0 +1,21 @@
+<package type="addon" name="nuxeo-poll" version="@VERSION@">
+  <title>Nuxeo Poll</title>
+  <description>
+  <p>The Nuxeo Polls package enables Nuxeo DM users to create surveys and have a visual overview of the results. To make polls visible to users without making them find them, they are displayed to users in he left column of the page, below the Worklist. This way, open polls are always displayed to the user so he can vote on it at anytime.</p>
+  </description>
+  <home-page>http://doc.nuxeo.com/x/0YGE</home-page>
+  <vendor>Nuxeo</vendor>
+  <installer restart="true" />
+  <uninstaller restart="true" />
+  <!-- <hotreload-support>false</hotreload-support> -->
+  <!-- <require-terms-and-conditions-acceptance>false -->
+  <!-- </require-terms-and-conditions-acceptance> -->
+  <nuxeo-validation>nuxeo_certified</nuxeo-validation>
+  <production-state>production_ready</production-state>
+  <supported>true</supported>
+  <platforms>
+    <platform>cap-@DISTRIB_VERSION@</platform>
+  </platforms>
+  <license>LGPL</license>
+  <license-url>http://www.gnu.org/licenses/lgpl.html</license-url>
+</package>
