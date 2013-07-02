@@ -89,8 +89,7 @@
                 file2="${outdir}/nuxeo-distribution-cap-${nuxeo.distribution.version}.zip"
                 includesfile="${outdir}/includes"
                 excludesfile="${outdir}/excludesfile"
-                patternsetid="poll.versus.cap"
-                ignoreContentPattern=".*jar$">
+                patternsetid="poll.versus.cap">
     </nx:zipdiff>
     <unzip src="${outdir}/nxr-${marketplace.poll.version}.zip"
            dest="${outdir}/marketplace/install">
