@@ -1,7 +1,7 @@
 <package type="addon" name="nuxeo-poll" version="@VERSION@">
   <title>Nuxeo Poll</title>
   <description>
-  <p>The Nuxeo Polls package enables Nuxeo DM users to create surveys and have a visual overview of the results. To make polls visible to users without making them find them, they are displayed to users in he left column of the page, below the Worklist. This way, open polls are always displayed to the user so he can vote on it at anytime.</p>
+  <p>The Nuxeo Polls package enables Nuxeo DM users to create surveys and have a visual overview of the results. To make polls visible to users without making them find them, they are displayed to users in the left column of the page, below the Worklist. This way, open polls are always displayed to the user so he can vote on it at anytime.</p>
   </description>
   <home-page>http://doc.nuxeo.com/x/RITZ</home-page>
   <vendor>Nuxeo</vendor>
