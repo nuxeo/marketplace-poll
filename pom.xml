@@ -32,21 +32,6 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.nuxeo.ecm.platform</groupId>
-        <artifactId>nuxeo-poll-core</artifactId>
-        <version>${nuxeo.addons.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.nuxeo.ecm.platform</groupId>
-        <artifactId>nuxeo-poll-gadget</artifactId>
-        <version>${nuxeo.addons.version}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.nuxeo.ecm.platform</groupId>
-        <artifactId>nuxeo-poll-web</artifactId>
-        <version>${nuxeo.addons.version}</version>
-      </dependency>
-      <dependency>
         <groupId>org.nuxeo.marketplace.poll</groupId>
         <artifactId>nxr</artifactId>
         <version>${marketplace.poll.version}</version>
