@@ -1,4 +1,4 @@
-<project name="nuxeo-assembly"
+<project name="poll-assembly"
          default="build"
          xmlns:nx="urn:nuxeo-build"
          xmlns:artifact="urn:nuxeo-artifact">
@@ -114,7 +114,7 @@
     </if>
 
     <var name="install.properties"
-          value="${line.separator}
+         value="${line.separator}
   &lt;copy file=&quot;${package.root}/install/artifacts-poll.properties&quot;${line.separator}
     todir=&quot;${env.server.home}/sdk&quot; overwrite=&quot;true&quot; /&gt;${line.separator}
   &lt;copy file=&quot;${package.root}/install/test-artifacts-poll.properties&quot;${line.separator}
@@ -145,7 +145,6 @@
     <zip destfile="${outdir}/${maven.project.artifactId}-${marketplace.poll.version}.zip"
          basedir="${outdir}/marketplace" />
     <artifact:attach file="${outdir}/${maven.project.artifactId}-${marketplace.poll.version}.zip"
-                     target="${maven.project.groupId}:${maven.project.artifactId}"
                      type="zip" />
   </target>
 
